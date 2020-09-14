@@ -1,0 +1,42 @@
+/* tribute-style.css 09-05-2020 */
+
+/* Background image for page */
+
+body {
+  background-image: url('https://birchtreedev.com/projects/02SurveyForm/Depositphotos_10944628_l-2015.jpg');
+  background-position: center;
+  /* background-repeat: no-repeat; */
+}
+
+/* Brown background with 30% opacity */
+#survey-form{
+    background: rgba(154, 121, 79, 0.6);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+/* Responsive text */
+#main{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+
+/* Responsive image */
+#img-div{
+  max-width: 100%;
+}
+
+/* Form Control */
+.form-control{
+    padding:8px;
+    display:block;
+    border:1px solid #ccc;
+    width:100%;
+}
+.input-textarea, .submit-button{
+        width:100%;
+}
+
